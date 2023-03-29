@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+img{
+    margin-left: .5px;
+}
+
+#container  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#card{
+    margin: 25px;
+    background-color: white;
+    border: .1px solid;
+}
+
+#name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-number{
+    padding-left: 15%;
+    padding-top: -5%;
+    color: blue;
+    font-weight: bolder;
+}
+
+#explain{
+    color: green;
+    font-weight: bold;
+}
